@@ -20,5 +20,3 @@ Outside of the standard python3 library the additional dependencies are: pandas,
 
 ```
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
