@@ -20,10 +20,10 @@ def det_nps_extraction(utt):
     determiner noun phrase type -> str: indefinite noun phrase, definite noun phrase, 
     demonstrative noun phrase, possessive noun phrase, str: determiner token, str: lemmatized noun token, 
     str: concatenated noun phrase determiner + lemmatized token, int: determiner distance from noun; 
-    if the utterance or string contains multiple determiner noun phrases the dictioanry will include keys with non-empty lists as values. 
-    The alternative determiner noun phrases, alternative determiner noun tokens, alternative lemmatized nouns, alternative
+    if the utterance or string contains multiple determiner noun phrases the will include non-empty list. 
+    The alternative (secondary, terietary, etc.) determiner noun phrases, alternative determiner noun tokens, alternative lemmatized nouns, alternative
     determiner noun phrases, alternative determiner noun distance of number words between determiner and noun;
-    otherwise the output is an empty list
+    otherwise the output is an empty list.
     
     
     
